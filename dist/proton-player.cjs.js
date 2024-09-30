@@ -322,7 +322,7 @@ class FetchJob {
       signal: this._controller.signal,
     };
 
-    return axios__default['default']
+    return axios__default["default"]
       .get(this._url, options)
       .then((response) => {
         if (this._cancelled) return null;
@@ -2162,7 +2162,7 @@ class ProtonPlayer extends EventEmitter {
 
     super();
 
-    const browser = Bowser__default['default'].getParser(window.navigator.userAgent);
+    const browser = Bowser__default["default"].getParser(window.navigator.userAgent);
     const browserName = browser.getBrowserName().toLowerCase();
     const osName = browser.getOSName().toLowerCase();
 
